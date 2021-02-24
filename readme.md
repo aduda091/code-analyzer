@@ -19,3 +19,9 @@ npm i
 Modify the `constants/projects.js` file with the names of project folders you intend to analyze.
 
 Then run `npm start` in the console. This will generate a wordlist.txt file if everything went well :)
+
+## Generate word cloud
+
+If you already have a wordlist.txt file, run `npm run cloud`.
+
+If not, you can run both sequentialy by running `npm run generate`.

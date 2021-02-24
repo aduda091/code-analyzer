@@ -38,5 +38,3 @@ dependencyAggregate.sort((a, b) => {
 // write wordlist to file
 const data = dependencyAggregate.join('\n');
 fs.writeFileSync('wordlist.txt', data, 'utf-8');
-
-// todo: use https://monkeylearn.com/word-cloud/ to generate a word cloud

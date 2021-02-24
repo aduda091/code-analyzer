@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "cloud": "node createWordCloud",
+    "generate": "npm start && npm run cloud"
   },
   "keywords": [],
   "author": "Alen Duda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^7.1.0"
+  }
 }
